@@ -11,10 +11,6 @@ Use Ansible to automate the installation and configuration of a web server (Apac
 - Install **Apache** or **Nginx** on the target machine.
 - Create a homepage at `/var/www/html/index.html` with the following content:
 
-
-
-Welcome to \[Your Name]'s server, managed by Ansible!
-
 `
 
 - Ensure the web server is **started** and **enabled** on boot.
@@ -25,7 +21,7 @@ Welcome to \[Your Name]'s server, managed by Ansible!
 
 ## 📁 Project Structure
 
-```
+
 
 ansible\_webserver/
 ├── files/
@@ -34,9 +30,6 @@ ansible\_webserver/
 ├── playbook.yml              
 └── README.md                 
 
-
-
----
 
 ## 🧾 Inventory File (`inventory.ini`)
 
