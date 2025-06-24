@@ -37,6 +37,7 @@ Make sure you configure your inventory with the correct IPs, username, and priva
 
 
 [webservers]
+
 ```ur-server-ip> ansible_user=ubuntu ansible_ssh_private_key_file=~/.ssh/your-key.pem```
 
 ```ur-server-ip> ansible_user=ubuntu ansible_ssh_private_key_file=~/.ssh/your-ke.pem```
