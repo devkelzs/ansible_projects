@@ -11,7 +11,7 @@ Use Ansible to automate the installation and configuration of a web server (Apac
 - Install **Apache** or **Nginx** on the target machine.
 - Create a homepage at `/var/www/html/index.html` with the following content:
 
-```
+
 
 Welcome to \[Your Name]'s server, managed by Ansible!
 
